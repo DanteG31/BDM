@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
+#Btnregistro {
+    border-radius: 25px;
+    margin-right: 10px;
+    display: none;
+}
+
+#profile{
+    border-radius: 25px;
+    margin-right: 25px;
+    display: none;
+}
+
+#CreateNotice {
+    border-radius: 25px;
+    margin-right: 20px;
+    display: none;
+}
+
+#ReporterView {
+    border-radius: 25px;
+    margin-right: 20px;
+    display: none;
+}
+
+#EditorView {
+    border-radius: 25px;
+    margin-right: 20px;
+    display: none;
+}
+
+#createReporter {
+    border-radius: 25px;
+    margin-right: 15px;
+    display: none;
+}
+
+#seccion {
+    border-radius: 25px;
+    margin-right: 15px;
+    display: none;
+}
+
+#seccionReport {
+    border-radius: 25px;
+    margin-right: 20px;
+    display: none;
+}
+
+#noticeReport {
+    border-radius: 25px;
+    margin-right: 15px;
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+}
+#comments{
+    width: 100%;
+    min-height: 200px;
+
+}
+
+.media{
+    border-top: 1px solid #bfbfbf;
+    padding-top: 20px;
+}
+
+.media img{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.media .nombre span{
+    font-size: 12px;
+    color: #464646;
+    margin-left: 10px;
+}
+
+.gallery{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.gallery-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 50px;
+    max-width: 1500px;
+    margin: 100px;
+}
+
+.post-list {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.notice{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.notice-img{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticeContent {
+    display: grid;
+    max-width: 800px;
+    margin: 100px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 50px;
+    max-width: 1500px;
+    margin: 100px;
+}
+
+.post-img-1 {
+    width: 100%;
+    height: 200px;
+}
+
+.post-img-2 {
+    width: 100%;
+    height: 200px;
+}
+
+.post-img-3 {
+    width: 100%;
+    height: 200px;
+}
+
+.Images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    max-width: 1500px;
+}
+
+.notice-img-2 {
+    width: 100%;
+    height: 200px;
+}
+
+.notice-video{
+    width: 100%;
+    height: 200px;
+}
+
+.post-gall-1 {
+    width: 100%;
+    height: 200px;
+}
+
+.post-gall-2 {
+    width: 100%;
+    height: 200px;
+}
+
+.gall-video {
+    width: 100%;
+    height: 200px;
+}
+
+
+.like__btn {
+    padding: 10px 15px;
+    background: #0080ff;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    color: #e8efff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }  
+
+footer {
+    background-color: #a991d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    margin: 1rem 1.5rem;
+
+}
+
+#CreateSeccion {
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+#ModifySeccion {
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+
+.formulario {
+    max-width: 500px;
+    width: 100%;
+    /*margin: 48px auto;*/
+    margin: 58px auto;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    /*padding: 40px;*/
+}
+
+.formulario h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="date"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: #FFF;
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="password"]:focus,
+.formulario input[type="email"]:focus {
+    border-bottom: 4px solid #0075d9;
+}
+
+.link {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: #9b9b9b;
+}
+
+.button {
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.table1 {
+    width: 100%;
+}
+
+.table1 th {
+    height: 30px;
+    background-color: #593196;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    margin: 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.table1 td {
+    height: 30px;
+    margin: 0px;
+    border-style: none;
+    padding-left: 20px;
+    background-color: rgb(238, 236, 236);
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 15px;
+    flex-direction: column;
+}
+
+.mainp {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    flex-direction: column;
+}
+
+#subm{
+    display: none;
+}
